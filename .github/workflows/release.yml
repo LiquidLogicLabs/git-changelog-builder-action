@@ -57,7 +57,7 @@ jobs:
 
       - name: Generate release notes
         id: release_notes
-        uses: ravenwolf-org/gitea-action-release-changelog-builder@main
+        uses: LiquidLogicLabs/git-changelog-builder-action@main
         with:
           mode: "HYBRID"
           configurationJson: |
